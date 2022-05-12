@@ -1,0 +1,33 @@
+header {
+	width:800px;
+	height:90px;	
+}
+hr{
+	color:#1C84CA;
+}
+#cos {
+	color:#404040;	
+}
+#kropka {
+	float:right;
+	
+}
+#kropka1 {
+	float:right;
+	
+}
+
+#kropka4 {
+	float:right;
+}
+#data {
+	float:left;
+}
+#text {
+	float:middle;
+	padding-left:200px;
+}
+img {
+	padding-right:10px;
+}
+
