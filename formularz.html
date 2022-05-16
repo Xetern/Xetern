@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+        <head>
+        <meta charset="utf-8">
+      
+    
+        </head>
+    <body>
+    
+            <form action="form.html" method="get">
+        <label>Nazwisko:</label><input/>
+         <p>Imię:<input/></p>
+         <p>Drugię Imię<input/></p>
+         <p>Jakas liczba<input type="number"/></p>
+         <p>Jakas liczba 2<input type="number" min="1" max="10"/></p>
+         <p>Jakas liczba 3<input type="range" min="1" max="5" value="3"/></p>
+         <p><input value="tekst domyslny"/></p>
+         <textarea rows="10" cols="50">Podaj opis</textarea>  
+         <p>Podaj datę: <input type="date"></p>
+         <p>Podaj miesiąc:<input type="month"></p>
+         <p>Podaj tydzien:<input type="week"></p>
+         <p>Podaj datę i czas: <input type="datetime-local"></p>
+         <p>Podaj haslo: <input type="password"></p>
+         <p>Wyszukiwanie: <input autofocus="autofocus" type="search"></p>
+         <label>Pole 1<input type="text" name="pole1"></label><br>
+         <label>Pole 2<input type="text" name="pole2"></label><br>
+         <label>Pole 3<input type="text" name="pole3"></label><br>
+         <label>Wprowadz adres email:<input type="email" required="required"></label><br>
+         <label>Wprowadz adres url:<input type="url" required="required"></label><br>
+             <fieldset><legend>Wybierz jedna z mozliwosci</legend>
+             <label>Opcja: 1<input type="radio" name="Opcja"></label><br>
+             <label>Opcja: 2<input type="radio" name="Opcja"></label><br>
+             <label>Opcja: 3<input type="radio" name="Opcja"></label><br>  
+             <label>Opcja: 4<input type="radio" name="Opcja2"></label><br>      
+             <label>Opcja: 5<input type="radio" name="Opcja2"></label><br>      
+             </fieldset>
+         <fieldset><legend>Wybierz opcje ktore cie interesują</legend>
+         <label>Opcja 1<input type="checkbox"></label><br> 
+         <label>Opcja 2<input type="checkbox"></label><br>
+         <label>Opcja 3<input type="checkbox"></label><br>
+         <label>Opcja 4<input type="checkbox"></label><br>
+         <label>Opcja 5<input type="checkbox"></label><br>
+         </fieldset>
+    <select>
+    <option>Kategoria 1</option>            
+    <option>Kategoria 2</option> 
+    <option>Kategoria 3</option> 
+    <option>Kategoria 4</option> 
+    <option>Kategoria 5</option> 
+    </select><br>
+        <select size="4" multiple="multiple">
+        <option>Katalog 1</option>            
+        <option>Katalog 2</option> 
+        <option>Katalog 3</option> 
+        <option>Katalog 4</option> 
+        <option>Katalog 5</option> 
+        </select><br>
+                <label>Dodaj Swoja CV</label><br>
+                <input type="file" multiple="multiple"><br>
+                <input type="button" value="PRZYCISK!!!!!"><br>
+                <input type="text" readonly="readonly" value="Czytaj XD"><br>
+               <input type="text" placeholder="Tu jest tekst domyslny"><br><br><br>
+	<label>Poniedziałek: <meter min="1" max="10" value="3"></meter></label><br>
+	<label>Podaj Marke:<input type="text" name="przedmiot" value="" list="samochody"></input><br></label>
+	<datalist id="samochody">
+	<option value="BMW">BMW</option>
+	<option value="Opel">Opel</option>
+	<option value="Audi">Audi</option>
+	<option value="Mercedes">Mercedes</option>
+	<option value="Honda">Honda</option>
+	</datalist>
+                
+         <input type="submit" value="wyslij formularz">
+         
+            </form>     
+    </body>
+</html>
